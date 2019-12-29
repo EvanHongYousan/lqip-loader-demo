@@ -5,20 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={require('./images/1.jpg')}></img>
+      <img src={require('./images/2.jpg')}></img>
+      <img src={require('./images/3.jpg')}></img>
+      <img src={require('./images/4.jpg')}></img>
     </div>
   );
 }
